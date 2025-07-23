@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Fire Diamond Offers</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f2f2; margin: 0; padding: 0; transition: background 0.3s, color 0.3s; }
+    header { background: #ff6f00; padding: 20px; text-align: center; color: white; }
+    section { padding: 20px; max-width: 700px; margin: auto; background: white; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+    h1, h2 { text-align: center; }
+    .package { border: 1px solid #ddd; margin: 10px 0; padding: 10px; border-radius: 6px; background: #fafafa; }
+    .package button { background: #28a745; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
+    .qr, .reviews, .countdown, .offer-banner { text-align: center; margin: 20px 0; }
+    form input, form select { width: 100%; padding: 10px; margin-top: 10px; border-radius: 4px; border: 1px solid #ccc; }
+    form button { background: #007bff; color: white; padding: 10px; border: none; border-radius: 5px; margin-top: 15px; }
+    footer { text-align: center; font-size: 14px; color: #555; padding: 10px; }
+    .dark-mode { background: #222; color: #eee; }
+    .dark-mode section { background: #333; color: #eee; }
+    .dark-mode .package { background: #444; border-color: #555; }
+    #darkToggle { position: fixed; top: 10px; right: 10px; padding: 8px; background: #000; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+    .whatsapp-btn { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white; padding: 12px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <button id="darkToggle">Toggle Dark Mode</button>
+  <header>
+    <h1>Free Fire Diamond Offers</h1>
+    <p>Instant Delivery | Trusted Seller | Secure Payment</p>
+  </header>
+
+  <section>
+    <div class="offer-banner">
+      <strong>🎉 Limited Time Offer: Get 5% extra diamonds on orders above ₹999!</strong>
+    </div>
+
+    <div class="countdown">
+      <p>Offer ends in <span id="timer">05:00</span> minutes!</p>
+    </div>
+
+    <h2>Choose Your Diamond Package</h2>
+    <div class="package">
+      <strong>500 Diamonds - ₹299</strong><br>
+      <button onclick="scrollToForm('500')">Buy Now</button>
+    </div>
+    <div class="package">
+      <strong>1,000 Diamonds - ₹499</strong><br>
+      <button onclick="scrollToForm('1000')">Buy Now</button>
+    </div>
+    <div class="package">
+      <strong>5,000 Diamonds - ₹1,999</strong><br>
+      <button onclick="scrollToForm('5000')">Buy Now</button>
+    </div>
+    <div class="package">
+      <strong>10,000 Diamonds - ₹3,499</strong><br>
+      <button onclick="scrollToForm('10000')">Buy Now</button>
+    </div>
+
+    <h2>Rare Bundles - ₹499 Each</h2>
+    <div class="package"><strong>Hip Hop Bundle</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Galaxy Dino Bundle</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Sakura Bundle</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Street Boy Bundle</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Wukong Bundle</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Rampage Bundle</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Elite Pass Bundle</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Kitsune Bundle</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Urban Rager Bundle</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Skull Hunter Bundle</strong><br><button>Buy Now</button></div>
+
+    <h2>Rare Emotes - ₹399 Each</h2>
+    <div class="package"><strong>Eat My Dust</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>FFWC Throne</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Selfie Emote</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Top DJ</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Make It Rain</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Moon Flip</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Doggie Emote</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Break Dance</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Booyah!</strong><br><button>Buy Now</button></div>
+
+    <h2>Rare Gun Skins</h2>
+    <div class="package"><strong>AK47 - Blue Flame Draco Skin - ₹2,999</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>M1014 - Green Flame Draco Skin - ₹2,499</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Scar - Megalodon Alpha - ₹2,499</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>MP40 - Flashing Spade - ₹2,199</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>M1887 - Hand of Hope - ₹2,199</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>UMP - Booyah Day - ₹1,999</strong><br><button>Buy Now</button></div>
+    <div class="package"><strong>Groza - Bang! Pop Blaster - ₹1,999</strong><br><button>Buy Now</button></div>
+
+    <h2>Payment QR</h2>
+    <div class="qr">
+      <img src="qr garena gpay.jpg" alt="Payment QR" width="200">
+      <p>Scan to pay using Google Pay / PhonePe / Paytm</p>
+    </div>
+
+    <h2>Order Form</h2>
+    <form action="#" onsubmit="alert('Order submitted successfully!'); return false;">
+      <label>Free Fire UID:</label>
+      <input type="text" name="uid" required>
+      <label>Select Diamond Package:</label>
+      <select name="package" id="package">
+        <option value="500">500 Diamonds - ₹299</option>
+        <option value="1000">1,000 Diamonds - ₹499</option>
+        <option value="5000">5,000 Diamonds - ₹1,999</option>
+        <option value="10000">10,000 Diamonds - ₹3,499</option>
+      </select>
+      <label>UPI Reference ID (after payment):</label>
+      <input type="text" name="refid" required>
+      <button type="submit">Submit Order</button>
+    </form>
+
+    <h2>Customer Reviews</h2>
+    <div class="reviews">
+      <p>⭐⭐⭐⭐⭐ - "Got my diamonds in 10 minutes! Super fast!"</p>
+      <p>⭐⭐⭐⭐⭐ - "Trusted and best price, 100% real."</p>
+      <p>⭐⭐⭐⭐⭐ - "Will buy again. Thanks bro!"</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Free Fire Diamond Offers. Not affiliated with Garena. Manual delivery within 15 minutes.
+  </footer>
+
+  <a class="whatsapp-btn" href="https://wa.me/919999999999" target="_blank">💬 Chat on WhatsApp</a>
+
+  <script>
+    function scrollToForm(packageValue) {
+      document.getElementById('package').value = packageValue;
+      window.scrollTo({ top: document.querySelector('form').offsetTop - 50, behavior: 'smooth' });
+    }
+
+    document.getElementById('darkToggle').addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+
+    let countdown = 300;
+    const timerDisplay = document.getElementById('timer');
+    const countdownInterval = setInterval(() => {
+      if (countdown <= 0) {
+        clearInterval(countdownInterval);
+        timerDisplay.textContent = '00:00';
+        return;
+      }
+      let minutes = Math.floor(countdown / 60);
+      let seconds = countdown % 60;
+      timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      countdown--;
+    }, 1000);
+  </script>
+</body>
+</html>
